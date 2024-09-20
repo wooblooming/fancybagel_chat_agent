@@ -1,0 +1,10 @@
+{
+  "name": "d45ce85b-3578-4dec-a652-bbedf0f36fb4",
+  "displayName": "레몬에이드.Ask",
+  "parameters": [ {
+    "id": "ade",
+    "entityType": "@Ade"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

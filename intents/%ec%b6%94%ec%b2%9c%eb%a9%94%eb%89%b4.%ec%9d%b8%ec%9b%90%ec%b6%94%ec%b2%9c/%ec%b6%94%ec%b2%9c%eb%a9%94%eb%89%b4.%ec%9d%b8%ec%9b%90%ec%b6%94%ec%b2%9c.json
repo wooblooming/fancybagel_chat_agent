@@ -1,0 +1,6 @@
+{
+  "name": "851c9cb6-46ed-450f-8b2d-15cbe42bd99d",
+  "displayName": "추천메뉴.인원추천",
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

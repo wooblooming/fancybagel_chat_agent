@@ -1,0 +1,117 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "블루베리베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "블루베리 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "블루베리베이글",
+      "parameterId": "bagel",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "블루베리 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "블루베리 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "에 대해서 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "블루베리베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "은 얼마야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "블루베리베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " 뭐야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "블루베리 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "은",
+      "auto": true
+    }, {
+      "text": " 얼마야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "블루베리 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " 뭐야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

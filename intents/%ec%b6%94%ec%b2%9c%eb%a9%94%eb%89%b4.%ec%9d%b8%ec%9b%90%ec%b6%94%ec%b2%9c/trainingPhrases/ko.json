@@ -1,0 +1,149 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "🧡",
+      "auto": true
+    }, {
+      "text": " 몇명",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": "서드",
+      "auto": true
+    }, {
+      "text": "시나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🧡",
+      "auto": true
+    }, {
+      "text": " 몇명이서 ",
+      "auto": true
+    }, {
+      "text": "드시",
+      "auto": true
+    }, {
+      "text": "나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🧡 몇 명이서 드시나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "3",
+      "auto": true
+    }, {
+      "text": "명이서 "
+    }, {
+      "text": "먹을 음식",
+      "auto": true
+    }, {
+      "text": " 양을 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "4",
+      "auto": true
+    }, {
+      "text": "명이면 ",
+      "auto": true
+    }, {
+      "text": "몇인분",
+      "auto": true
+    }, {
+      "text": " 시켜야 ",
+      "auto": true
+    }, {
+      "text": "해",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "2",
+      "auto": true
+    }, {
+      "text": "명이서 먹는데 몇인분 시켜야 ",
+      "auto": true
+    }, {
+      "text": "해",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몇",
+      "auto": true
+    }, {
+      "text": "인분",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " 적당할까?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몇명",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": "서드시나요",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몇명이서 ",
+      "auto": true
+    }, {
+      "text": "드시",
+      "auto": true
+    }, {
+      "text": "나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몇 명이서 드시나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

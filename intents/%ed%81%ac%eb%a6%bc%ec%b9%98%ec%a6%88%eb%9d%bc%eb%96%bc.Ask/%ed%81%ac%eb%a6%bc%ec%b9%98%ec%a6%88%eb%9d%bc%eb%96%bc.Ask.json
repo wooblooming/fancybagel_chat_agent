@@ -1,0 +1,10 @@
+{
+  "name": "0139df0b-a6e7-4879-bdaf-1a6edb965b49",
+  "displayName": "크림치즈라떼.Ask",
+  "parameters": [ {
+    "id": "noncoffee",
+    "entityType": "@NonCoffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

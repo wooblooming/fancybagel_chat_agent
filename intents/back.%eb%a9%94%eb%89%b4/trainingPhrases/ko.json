@@ -1,0 +1,16 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "\u003c",
+      "auto": true
+    }, {
+      "text": " 뒤로 ",
+      "auto": true
+    }, {
+      "text": "\u003e",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

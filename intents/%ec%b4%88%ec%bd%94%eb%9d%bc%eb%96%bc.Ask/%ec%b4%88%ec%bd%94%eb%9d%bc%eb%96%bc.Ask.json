@@ -1,0 +1,10 @@
+{
+  "name": "20a655e3-00ae-499b-85a9-87b0e4d88286",
+  "displayName": "초코라떼.Ask",
+  "parameters": [ {
+    "id": "noncoffee",
+    "entityType": "@NonCoffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

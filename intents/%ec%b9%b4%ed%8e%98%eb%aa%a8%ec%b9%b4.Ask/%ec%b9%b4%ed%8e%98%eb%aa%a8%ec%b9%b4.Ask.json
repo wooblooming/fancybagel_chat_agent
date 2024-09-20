@@ -1,0 +1,10 @@
+{
+  "name": "8398b22e-f576-4fca-9fe7-90c0b090dbe2",
+  "displayName": "카페모카.Ask",
+  "parameters": [ {
+    "id": "coffee",
+    "entityType": "@Coffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

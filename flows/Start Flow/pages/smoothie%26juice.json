@@ -1,0 +1,37 @@
+{
+  "name": "cd84ea9d-87f5-4c04-9614-80cfe20c9b01",
+  "displayName": "smoothie\u0026juice",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "플레인요거트스무디"
+          }, {
+            "text": "커피프라프치노"
+          }, {
+            "text": "복숭아\u0026자두스무디"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "0771de5b-f321-4142-b717-f61a917b79ec"
+  } ]
+}

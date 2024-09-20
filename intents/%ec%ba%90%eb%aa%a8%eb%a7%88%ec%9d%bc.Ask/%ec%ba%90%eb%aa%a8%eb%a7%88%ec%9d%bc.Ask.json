@@ -1,0 +1,10 @@
+{
+  "name": "a3da08b0-a235-4665-88d1-7f7aeb286b62",
+  "displayName": "캐모마일.Ask",
+  "parameters": [ {
+    "id": "tea",
+    "entityType": "@Tea"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

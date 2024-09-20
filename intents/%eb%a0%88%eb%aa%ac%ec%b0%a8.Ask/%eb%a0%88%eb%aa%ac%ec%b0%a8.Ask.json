@@ -1,0 +1,10 @@
+{
+  "name": "45eac29d-c25e-4e47-9d79-70b38e6eea99",
+  "displayName": "레몬차.Ask",
+  "parameters": [ {
+    "id": "tea",
+    "entityType": "@Tea"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 11
+}

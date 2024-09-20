@@ -1,0 +1,139 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "커피프라프치노",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": "에",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "대한",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "정보",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "커피프라프치노",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "정보",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "커피프라프치노",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " 어떻게 돼?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "커피프라프치노",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "얼마",
+      "auto": true
+    }, {
+      "text": "인지",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "커피프라프치노",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "커피프라프치노",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "얼마",
+      "auto": true
+    }, {
+      "text": "야",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "커피 프라프치노",
+      "parameterId": "smoothie",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "커피프라프치노",
+      "parameterId": "smoothie",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

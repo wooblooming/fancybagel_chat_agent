@@ -1,0 +1,63 @@
+{
+  "name": "01bc183e-d67e-4526-8c39-1f307eaa51d1",
+  "displayName": "주문조리시간",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "시간"
+          } ],
+          "title": "👉주문 조리 시간 FAQ👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "안녕하세요! 팬시베이글을 찾아주셔서 감사합니다. 😊", "", "보통 음료 및 커피 조리 시간은 약 10 정도 소요됩니다. ", "다만, 아래 사항에 따라 시간이 조금 달라질 수 있습니다", "", "⭕ 주문량에 따라", "주문이 많아지는 바쁜 시간대에는 조리 시간이 조금 더 걸릴 수 있어요.", "", "⭕ 메뉴 수에 따라", "4 ~ 5개 이상의 음료를 주문하시는 경우 조리시간이 조금 더 걸릴 수 있어요." ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "b956c956-5021-4179-aeea-7e411276e2b2"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "back.title",
+    "event": "back",
+    "triggerFulfillment": {
+    
+    },
+    "name": "cc029046-6cb0-427b-a48a-9be21509d238"
+  } ]
+}

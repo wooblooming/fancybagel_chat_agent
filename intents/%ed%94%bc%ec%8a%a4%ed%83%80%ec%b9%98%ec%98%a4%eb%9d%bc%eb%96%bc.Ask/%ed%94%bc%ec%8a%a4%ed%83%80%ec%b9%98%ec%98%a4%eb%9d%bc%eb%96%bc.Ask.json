@@ -1,0 +1,10 @@
+{
+  "name": "d1528ccd-da0b-4f75-b0ac-5fa3938c8c4c",
+  "displayName": "피스타치오라떼.Ask",
+  "parameters": [ {
+    "id": "noncoffee",
+    "entityType": "@NonCoffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

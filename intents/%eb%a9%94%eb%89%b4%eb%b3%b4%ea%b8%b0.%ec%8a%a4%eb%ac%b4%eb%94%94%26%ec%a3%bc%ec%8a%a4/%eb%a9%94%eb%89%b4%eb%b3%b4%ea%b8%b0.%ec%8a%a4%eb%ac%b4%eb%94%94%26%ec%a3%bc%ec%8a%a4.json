@@ -1,0 +1,13 @@
+{
+  "name": "8cc413e8-f213-48af-bfe7-f477d1d58519",
+  "displayName": "메뉴보기.스무디\u0026주스",
+  "parameters": [ {
+    "id": "smoothie",
+    "entityType": "@Smoothie"
+  }, {
+    "id": "fruitsjuice",
+    "entityType": "@FruitsJuice"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

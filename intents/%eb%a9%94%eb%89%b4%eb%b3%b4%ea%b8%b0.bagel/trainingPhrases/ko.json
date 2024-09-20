@@ -1,0 +1,54 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "베이글",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "베이글 메뉴",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "베이글 메뉴를",
+      "auto": true
+    }, {
+      "text": " 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "베이글 메뉴 보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🥯",
+      "auto": true
+    }, {
+      "text": "베이글",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🥯 ",
+      "auto": true
+    }, {
+      "text": "베이글",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

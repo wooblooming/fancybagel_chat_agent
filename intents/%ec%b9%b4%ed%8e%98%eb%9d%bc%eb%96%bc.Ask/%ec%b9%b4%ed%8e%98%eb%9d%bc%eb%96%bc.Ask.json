@@ -1,0 +1,10 @@
+{
+  "name": "b9b62737-6bd3-409f-b038-c063fab1e8e2",
+  "displayName": "카페라떼.Ask",
+  "parameters": [ {
+    "id": "coffee",
+    "entityType": "@Coffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

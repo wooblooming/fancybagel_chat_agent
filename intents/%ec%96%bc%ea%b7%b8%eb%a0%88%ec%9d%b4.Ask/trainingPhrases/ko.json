@@ -1,0 +1,88 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "얼그레이",
+      "parameterId": "tea",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "얼마",
+      "auto": true
+    }, {
+      "text": "인지",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "얼그레이",
+      "parameterId": "tea",
+      "auto": true
+    }, {
+      "text": " 얼마야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "얼그레이",
+      "parameterId": "tea",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "얼 ",
+      "auto": true
+    }, {
+      "text": "그레이",
+      "parameterId": "tea",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "얼그레이",
+      "parameterId": "tea",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "얼그레이가 뭐야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "얼그레이의 가격을 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "얼그레이에 대해서 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

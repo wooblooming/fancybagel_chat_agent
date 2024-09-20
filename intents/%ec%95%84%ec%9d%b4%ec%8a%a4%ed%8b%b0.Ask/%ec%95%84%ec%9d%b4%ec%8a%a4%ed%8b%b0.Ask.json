@@ -1,0 +1,10 @@
+{
+  "name": "b58e5c8d-7d32-42a9-b022-690febd353f8",
+  "displayName": "아이스티.Ask",
+  "parameters": [ {
+    "id": "tea",
+    "entityType": "@Tea"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

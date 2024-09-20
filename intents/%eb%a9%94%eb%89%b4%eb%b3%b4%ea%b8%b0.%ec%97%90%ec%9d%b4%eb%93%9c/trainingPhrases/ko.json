@@ -1,0 +1,57 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "에이드",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "메뉴",
+      "auto": true
+    }, {
+      "text": "를 보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "에이드 메뉴",
+      "auto": true
+    }, {
+      "text": " 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "에이드 메뉴",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "에이드",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🍸 에이드",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🍸에이드",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "3ec77d39-08d2-4e86-ab6c-9466f763c005",
+  "displayName": "운영시간",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "items": [ {
+            "description": "내부 검토 자료 안내",
+            "title": "운영시간"
+          } ],
+          "title": "👉운영 시간 FAQ👈",
+          "type": "list"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "안녕하세요! 팬시베이글을 찾아주셔서 감사합니다. 😊", "", "저희 가게의 운영 시간은 아래와 같습니다", "▪ 평일 (월~금): 오후 12:30 ~ 오후 23시", "▪ 주말 (토~일): 오후 12:30 ~ 오후 24시", "▪ 휴무일: 매주 월요일 및 공휴일", "", "⚠ BreakTime은 오후 6시~7시30분 ⚠", "⚠ 라스트오더 주중22:55, 주말23:55 ⚠", "", "주말에는 BreakTime없이 운영합니다" ],
+          "type": "description"
+        } ] ]
+      },
+      "languageCode": "ko"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "e0114271-e8b9-4044-9b5c-0994a467d8cd"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "back.title",
+    "event": "back",
+    "triggerFulfillment": {
+    
+    },
+    "name": "c3f091cb-c729-4a57-ad7b-bfb2ca666f03"
+  } ]
+}

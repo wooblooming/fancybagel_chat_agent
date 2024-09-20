@@ -1,0 +1,104 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "콘버터라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "정보",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘버터라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘버터라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "얼마",
+      "auto": true
+    }, {
+      "text": "야",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘 버터 라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘버터 라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘 버터라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘버터라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘버터라떼가 뭐야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘버터라떼의 가격을 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콘버터라떼에 대해서 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

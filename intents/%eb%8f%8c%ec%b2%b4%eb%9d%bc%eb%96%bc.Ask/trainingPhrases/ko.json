@@ -1,0 +1,92 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "돌체라떼",
+      "parameterId": "coffee",
+      "auto": true
+    }, {
+      "text": "가",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "뭔지",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "돌체라떼",
+      "parameterId": "coffee",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    }, {
+      "text": "을",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알고",
+      "auto": true
+    }, {
+      "text": "싶어",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "돌체라떼",
+      "parameterId": "coffee",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "돌체라떼",
+      "parameterId": "coffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "돌체라떼가 뭐야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "돌체라떼의 가격을 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "돌체라떼에 대해서 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

@@ -1,0 +1,76 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "크림 치즈라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    }, {
+      "text": " 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "크림치즈라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "크림치즈 라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "크림 치즈라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "크림치즈라떼",
+      "parameterId": "noncoffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "크림치즈라떼가 뭐야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "크림치즈라떼의 가격을 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "크림치즈라떼에 대해서 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

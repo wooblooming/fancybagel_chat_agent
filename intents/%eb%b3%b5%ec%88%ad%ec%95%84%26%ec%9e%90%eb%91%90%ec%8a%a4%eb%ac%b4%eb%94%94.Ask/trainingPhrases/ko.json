@@ -1,0 +1,51 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "복숭아\u0026자두스무디",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": " 얼마인지 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "복숭아\u0026자두스무디",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": " 얼마야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "복숭아\u0026자두스무디",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": " 가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "복숭아\u0026자두 스무디",
+      "parameterId": "smoothie",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "복숭아\u0026자두스무디",
+      "parameterId": "smoothie",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

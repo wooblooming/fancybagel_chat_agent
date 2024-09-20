@@ -1,0 +1,10 @@
+{
+  "name": "f74b211f-ecc7-4190-a586-4b8922d14621",
+  "displayName": "Ask.치즈베이글",
+  "parameters": [ {
+    "id": "bagel",
+    "entityType": "@Bagel"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

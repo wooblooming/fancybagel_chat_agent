@@ -1,0 +1,10 @@
+{
+  "name": "cdbbe82f-8395-4b62-83ef-1e1dbb8576ac",
+  "displayName": "자몽차.Ask",
+  "parameters": [ {
+    "id": "tea",
+    "entityType": "@Tea"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

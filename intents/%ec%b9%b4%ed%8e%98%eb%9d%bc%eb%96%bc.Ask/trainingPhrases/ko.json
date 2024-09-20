@@ -1,0 +1,60 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "카페라떼",
+      "parameterId": "coffee",
+      "auto": true
+    }, {
+      "text": "의 ",
+      "auto": true
+    }, {
+      "text": "가격이",
+      "auto": true
+    }, {
+      "text": " 어떻게 돼?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "카페라떼",
+      "parameterId": "coffee",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "카페라떼",
+      "parameterId": "coffee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "카페라떼가 뭐야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "카페라떼의 가격을 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "카페라떼에 대해서 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

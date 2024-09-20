@@ -1,0 +1,136 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "무슨 스무디",
+      "auto": true
+    }, {
+      "text": "가 있어?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "무슨 ",
+      "auto": true
+    }, {
+      "text": "주스",
+      "parameterId": "fruitsjuice",
+      "auto": true
+    }, {
+      "text": "가 있어?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "주스",
+      "parameterId": "fruitsjuice",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "주스",
+      "parameterId": "fruitsjuice",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "메뉴",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "스무디 메뉴를 보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "스무디를",
+      "auto": true
+    }, {
+      "text": " 보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🧋",
+      "auto": true
+    }, {
+      "text": "스무디\u0026",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": "주스",
+      "parameterId": "fruitsjuice",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🧋 스무디랑 ",
+      "auto": true
+    }, {
+      "text": "주스",
+      "parameterId": "fruitsjuice",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🧋 스무디",
+      "auto": true
+    }, {
+      "text": "주스",
+      "parameterId": "fruitsjuice",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🧋 ",
+      "auto": true
+    }, {
+      "text": "스무디\u0026",
+      "parameterId": "smoothie",
+      "auto": true
+    }, {
+      "text": "주스",
+      "parameterId": "fruitsjuice",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

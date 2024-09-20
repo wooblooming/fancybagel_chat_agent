@@ -1,0 +1,10 @@
+{
+  "name": "10432c4a-41cc-4727-a249-69fb9ab593c9",
+  "displayName": "커피프라프치노.Ask",
+  "parameters": [ {
+    "id": "smoothie",
+    "entityType": "@Smoothie"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

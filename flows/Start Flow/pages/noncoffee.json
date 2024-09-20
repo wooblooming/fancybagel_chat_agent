@@ -1,0 +1,47 @@
+{
+  "name": "4e9dc5d5-df4c-4df0-98b7-6cc710130a0d",
+  "displayName": "noncoffee",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "초코라떼"
+          }, {
+            "text": "제주말차라떼"
+          }, {
+            "text": "밀크티"
+          }, {
+            "text": "크림치즈라떼"
+          }, {
+            "text": "코코넛라떼"
+          }, {
+            "text": "콘버터라떼"
+          }, {
+            "text": "딸기라떼"
+          }, {
+            "text": "피스타치오라떼"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "856b8e83-c3bd-4ad2-9592-b5c73435c80c"
+  } ]
+}

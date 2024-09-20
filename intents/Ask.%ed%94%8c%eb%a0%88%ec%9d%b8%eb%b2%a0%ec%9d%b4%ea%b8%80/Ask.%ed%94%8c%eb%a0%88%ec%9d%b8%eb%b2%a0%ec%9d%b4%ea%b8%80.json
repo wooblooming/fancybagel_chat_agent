@@ -1,0 +1,10 @@
+{
+  "name": "4ee683d1-f894-44f2-9ae1-b3d4d6ee5c4e",
+  "displayName": "Ask.플레인베이글",
+  "parameters": [ {
+    "id": "bagel",
+    "entityType": "@Bagel"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

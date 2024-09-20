@@ -1,0 +1,10 @@
+{
+  "name": "9866b5a1-eb96-438d-9b7e-85dbc9670eb2",
+  "displayName": "샤인머스켓에이드.Ask",
+  "parameters": [ {
+    "id": "ade",
+    "entityType": "@Ade"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

@@ -1,0 +1,10 @@
+{
+  "name": "b7480ea6-9dd5-49e0-86e7-b7a17eb36932",
+  "displayName": "패션후르츠에이드.Ask",
+  "parameters": [ {
+    "id": "ade",
+    "entityType": "@Ade"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

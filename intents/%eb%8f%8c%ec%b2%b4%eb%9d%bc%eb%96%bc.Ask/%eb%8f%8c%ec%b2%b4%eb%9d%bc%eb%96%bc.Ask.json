@@ -1,0 +1,10 @@
+{
+  "name": "d7ca3a97-f9ce-450c-9889-dc8f13539978",
+  "displayName": "돌체라떼.Ask",
+  "parameters": [ {
+    "id": "coffee",
+    "entityType": "@Coffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fa787088-5266-4565-91ad-8f3bcdee8c18",
+  "displayName": "밀크티.Ask",
+  "parameters": [ {
+    "id": "noncoffee",
+    "entityType": "@NonCoffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

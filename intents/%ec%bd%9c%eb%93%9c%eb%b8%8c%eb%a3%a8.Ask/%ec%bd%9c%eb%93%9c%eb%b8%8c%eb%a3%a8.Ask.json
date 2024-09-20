@@ -1,0 +1,10 @@
+{
+  "name": "d482c02a-5cbb-464e-add2-e6d8674c523c",
+  "displayName": "콜드브루.Ask",
+  "parameters": [ {
+    "id": "coffee",
+    "entityType": "@Coffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

@@ -1,0 +1,10 @@
+{
+  "name": "6062b7ae-ac50-44f9-81c8-677316008010",
+  "displayName": "콘버터라떼.Ask",
+  "parameters": [ {
+    "id": "noncoffee",
+    "entityType": "@NonCoffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

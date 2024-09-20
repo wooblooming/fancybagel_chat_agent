@@ -1,0 +1,41 @@
+{
+  "name": "fcc4e6ab-203b-4fa2-83c9-dcbcdf9d7a2f",
+  "displayName": "ade",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "레몬에이드"
+          }, {
+            "text": "자몽에이드"
+          }, {
+            "text": "패션후르츠에이드"
+          }, {
+            "text": "자두\u0026복숭아에이드"
+          }, {
+            "text": "샤인머스켓에이드"
+          }, {
+            "text": "\u003c 뒤로 \u003e"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "1c4c4722-42c7-404b-8d04-1b453532db8f"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "3eb14127-cf0c-43b8-9eb6-ae3ef5dad0fe",
+  "displayName": "카라멜마끼아또.Ask",
+  "parameters": [ {
+    "id": "coffee",
+    "entityType": "@Coffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

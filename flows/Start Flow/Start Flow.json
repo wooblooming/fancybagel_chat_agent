@@ -1,0 +1,1207 @@
+{
+  "name": "8baf4ab3-6e98-4c00-b182-9f42146404eb",
+  "displayName": "Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/FANCY_BAGEL/%ED%8C%AC%EC%8B%9C%EB%A1%9C%EA%B3%A0.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "actionLink": "https://m.place.naver.com/restaurant/1265898454/home",
+            "image": {
+              "src": {
+                "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/FANCY_BAGEL/naver.jpeg"
+              }
+            },
+            "subtitle": "네이버 주문하러 가기",
+            "title": "FANCY BAGEL",
+            "type": "info"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "안녕하세요", "FANCY BAGEL봇입니다!😁" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "문의하실 내용을 간단히", "입력하시거나 아래 버튼을", "눌러주세요👇" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "1️⃣ 추천 메뉴"
+            }, {
+              "text": "2️⃣ 주문 조리시간"
+            }, {
+              "text": "3️⃣ 운영 시간(Break Time)"
+            }, {
+              "text": "4️⃣ 화장실 위치"
+            }, {
+              "text": "5️⃣ 이벤트 확인"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "ae2b66b2-3e1c-4965-af3d-a10bbde5231a"
+  }, {
+    "intent": "redirect.추천메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "d3da74ca-99c2-472f-b43d-b01e742c4d64"
+  }, {
+    "intent": "redirect.주문조리시간",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "주문조리시간",
+    "name": "55cebef3-d591-4905-a56a-d2481d5f813a"
+  }, {
+    "intent": "redirect.운영시간",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "운영시간",
+    "name": "db584645-734d-4cc0-ad65-7a4d0892f5e9"
+  }, {
+    "intent": "redirect.화장실위치",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "화장실위치",
+    "name": "c155415e-709f-4ccd-a19a-9eaefa5caa1a"
+  }, {
+    "intent": "redirect.이벤트확인",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "이벤트확인",
+    "name": "70dd8646-2e3c-45fc-86ba-d8a95cdd404e"
+  }, {
+    "intent": "Ask.소금베이글",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉소금 베이글👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%86%8C%EA%B8%88%EB%B2%A0%EC%9D%B4%EA%B8%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 2,800원", "기본 베이글을 소금빵 스타일로 바꿔본 스페셜 베이글입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "bagel",
+    "name": "5925e393-2b0c-4359-9cf5-ac53252851e1"
+  }, {
+    "intent": "Ask.블루베리베이글",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉블루베리 베이글👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC%EB%B2%A0%EC%9D%B4%EA%B8%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 2,600원", "기본 베이글에 블루베리가 들어간 스페셜 베이글", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "bagel",
+    "name": "263d6d4b-fc1b-485d-b60c-e2d78ec31258"
+  }, {
+    "intent": "Ask.치즈베이글",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉치즈 베이글👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%B9%98%EC%A6%88%EB%B2%A0%EC%9D%B4%EA%B8%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 2,400원", "치즈베이글은 고소한 치즈가 듬뿍 들어간 베이글입니다.", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "bagel",
+    "name": "8277433a-0737-4996-8f9a-2ed0f3f850b5"
+  }, {
+    "intent": "Ask.플레인베이글",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉플레인 베이글👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%ED%94%8C%EB%A0%88%EC%9D%B8%EB%B2%A0%EC%9D%B4%EA%B8%80.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 1,900원", "직접 반죽해서 구운 겉바속촉 기본 베이글입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "bagel",
+    "name": "13919f49-0aa0-4956-b8c0-f645381b08e7"
+  }, {
+    "intent": "아메리카노.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉아메리카노👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 1,900원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "coffee",
+    "name": "79ba1683-2c72-4402-b60f-ad0ec493b1cf"
+  }, {
+    "intent": "카페라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉카페라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 2,500원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "coffee",
+    "name": "3d2a9388-5e0d-41f9-a040-886b5320ae49"
+  }, {
+    "intent": "바닐라라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉바닐라라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "coffee",
+    "name": "cf284a0c-6403-4666-a174-07c462f5de0c"
+  }, {
+    "intent": "돌체라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉돌체라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EB%8F%8C%EC%B2%B4%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "coffee",
+    "name": "dc95a141-36ff-475e-9cc5-ff4356e7d710"
+  }, {
+    "intent": "카페모카.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉카페모카👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%B9%B4%ED%8E%98%EB%AA%A8%EC%B9%B4.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "coffee",
+    "name": "854f6d36-8667-4763-a4bd-cde13d43ccc9"
+  }, {
+    "intent": "콜드브루.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉콜드브루👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 1,900원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "coffee",
+    "name": "5d104885-73ae-4c0a-b2c8-e3e82325949f"
+  }, {
+    "intent": "카라멜마끼아또.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉카라멜 마끼아또👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%B9%B4%EB%9D%BC%EB%A9%9C%EB%A7%88%EB%81%BC%EC%95%84%EB%98%90.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "coffee",
+    "name": "a547cbbd-9fe5-48f1-8e82-ee649a97abf6"
+  }, {
+    "intent": "초코라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉초코라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%B4%88%EC%BD%94%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "noncoffee",
+    "name": "eaded982-3c9d-4b98-9b4f-12cdb29f7aff"
+  }, {
+    "intent": "제주말차라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉제주말차라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%A0%9C%EC%A3%BC%EB%A7%90%EC%B0%A8%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "noncoffee",
+    "name": "77fba8bf-4f7e-4e34-b686-56e71795ebc8"
+  }, {
+    "intent": "밀크티.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉밀크티👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EB%B0%80%ED%81%AC%ED%8B%B0.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "noncoffee",
+    "name": "65b2cc82-00cd-4b8a-813a-5daae58ed578"
+  }, {
+    "intent": "크림치즈라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉크림치즈라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%ED%81%AC%EB%A6%BC%EC%B9%98%EC%A6%88%EB%9D%BC%EB%96%BC_%EC%BD%94%EC%BD%94%EB%84%9B%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "noncoffee",
+    "name": "dc20e9e4-6c45-4f8d-b4dc-fad2a3d225e2"
+  }, {
+    "intent": "코코넛라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉코코넛라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%ED%81%AC%EB%A6%BC%EC%B9%98%EC%A6%88%EB%9D%BC%EB%96%BC_%EC%BD%94%EC%BD%94%EB%84%9B%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "noncoffee",
+    "name": "088ebc8e-79b0-4c95-9fd4-2deea8bdd3c1"
+  }, {
+    "intent": "콘버터라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉콘버터라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%BD%98%EB%B2%84%ED%84%B0%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "noncoffee",
+    "name": "b8b2e2fb-227c-4382-96ce-c961c3e006b5"
+  }, {
+    "intent": "딸기라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉딸기라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EB%94%B8%EA%B8%B0%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "noncoffee",
+    "name": "031ff0bf-fa7d-4bbe-bc09-e8ae6909c022"
+  }, {
+    "intent": "피스타치오라떼.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉피스타치오 라떼👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%ED%94%BC%EC%8A%A4%ED%83%80%EC%B9%98%EC%98%A4%EB%9D%BC%EB%96%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "noncoffee",
+    "name": "0806ce37-4b6f-4e94-9757-64a0e8bd6cd1"
+  }, {
+    "intent": "레몬에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉레몬에이드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EB%A0%88%EB%AA%AC%EC%97%90%EC%9D%B4%EB%93%9C.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "ade",
+    "name": "8e576e8d-ee98-4987-b4af-d7707ec22f77"
+  }, {
+    "intent": "자몽에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉자몽에이드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%9E%90%EB%AA%BD%EC%97%90%EC%9D%B4%EB%93%9C.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "ade",
+    "name": "c225598e-9aec-41ab-b33f-325494eb90ac"
+  }, {
+    "intent": "패션후르츠에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉패션후루츠 에이드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%ED%8C%A8%EC%85%98%ED%9B%84%EB%A5%B4%EC%B8%A0%EC%97%90%EC%9D%B4%EB%93%9C.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "ade",
+    "name": "4d572892-e52e-4f10-ae36-da0a14715b2c"
+  }, {
+    "intent": "자두\u0026복숭아에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉자두\u0026복숭아에이드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%9E%90%EB%91%90%26%EB%B3%B5%EC%88%AD%EC%95%84%EC%97%90%EC%9D%B4%EB%93%9C.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "ade",
+    "name": "d72488a6-9abd-488a-ae22-06eb686213dd"
+  }, {
+    "intent": "샤인머스켓에이드.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉샤인머스켓 에이드👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%83%A4%EC%9D%B8%EB%A8%B8%EC%8A%A4%EC%BC%93%EC%97%90%EC%9D%B4%EB%93%9C.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "20온스 컵으로 대용량 사이즈입니다!", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "ade",
+    "name": "199b88bd-eb2b-4394-a2cd-cfa4f9d32416"
+  }, {
+    "intent": "플레인요거트스무디.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉플레인요거트스무디👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%ED%94%8C%EB%A0%88%EC%9D%B8%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%8A%A4%EB%AC%B4%EB%94%94.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,500원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "smoothie\u0026juice",
+    "name": "95c5ac05-fec4-48b0-b7a7-146e0700a9f1"
+  }, {
+    "intent": "커피프라프치노.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉커피프라프치노👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%BB%A4%ED%94%BC%ED%94%84%EB%9D%BC%ED%94%84%EC%B9%98%EB%85%B8.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,500원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "smoothie\u0026juice",
+    "name": "2086db26-67fa-4ac3-9880-98eeebe6ec51"
+  }, {
+    "intent": "복숭아\u0026자두스무디.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉복숭아\u0026자두스무디👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EB%B3%B5%EC%88%AD%EC%95%84%26%EC%9E%90%EB%91%90%EC%8A%A4%EB%AC%B4%EB%94%94.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,500원", "", "옵션을 선택하거나 자유롭게 질문해주세요." ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "smoothie\u0026juice",
+    "name": "43b3e773-8cbc-47a0-a71b-875ea9352545"
+  }, {
+    "intent": "레몬차.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉레몬차👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EB%A0%88%EB%AA%AC%EC%B0%A8.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "", "옵션을 선택하거나 자유롭게 질문해주세요.", "20온스 컵으로 대용량 사이즈입니다.!" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tea",
+    "name": "92966a9e-f188-4f25-80e6-882c88f3e5e7"
+  }, {
+    "intent": "자몽차.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉자몽차👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%9E%90%EB%AA%BD%EC%B0%A8.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "", "옵션을 선택하거나 자유롭게 질문해주세요.", "20온스 컵으로 대용량 사이즈입니다.!" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tea",
+    "name": "006b9e03-7cd6-4e57-b77d-727d0af40965"
+  }, {
+    "intent": "얼그레이.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉얼그레이👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%96%BC%EA%B7%B8%EB%A0%88%EC%9D%B4.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "", "옵션을 선택하거나 자유롭게 질문해주세요.", "20온스 컵으로 대용량 사이즈입니다.!" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tea",
+    "name": "d17358e7-7a03-43a3-8068-0dff97abe8b1"
+  }, {
+    "intent": "캐모마일.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉캐모마일👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%BA%90%EB%AA%A8%EB%A7%88%EC%9D%BC.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 3,000원", "", "옵션을 선택하거나 자유롭게 질문해주세요.", "20온스 컵으로 대용량 사이즈입니다.!" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tea",
+    "name": "79a08c56-46a5-4f0c-b3a8-64c4d3472906"
+  }, {
+    "intent": "아이스티.Ask",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉아이스티👈",
+            "type": "list"
+          }, {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8.jpg",
+            "type": "image"
+          }, {
+            "text": [ "", "🪙가격 : 2,000원", "", "옵션을 선택하거나 자유롭게 질문해주세요.", "⭕아샷추 가능합니다!⭕" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "tea",
+    "name": "151e5262-e857-42a3-90da-30099d5c3ef5"
+  }, {
+    "intent": "베이글메뉴추천.Ask",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "bagel",
+    "name": "4cf9309a-d37a-4104-b248-f1d1daa0e615"
+  }, {
+    "intent": "메뉴보기.에이드",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ade",
+    "name": "27e9b073-5ffe-485e-8a7e-7a83a98bdce0"
+  }, {
+    "intent": "메뉴보기.스무디\u0026주스",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "smoothie\u0026juice",
+    "name": "bf5c3a1d-0441-4eef-9d8a-5359509cc9e0"
+  }, {
+    "intent": "메뉴보기.Coffee",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "coffee",
+    "name": "4a0b5e72-d78b-42a8-b9cb-ec1dc3a6d650"
+  }, {
+    "intent": "메뉴보기.None-Coffee",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "noncoffee",
+    "name": "c0e16ee9-c3c5-49c7-ae42-0cdc8a1520cb"
+  }, {
+    "intent": "메뉴보기.Tea",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "tea",
+    "name": "0920f4dc-f52d-4b8d-b5a4-72cc86514712"
+  }, {
+    "intent": "메뉴보기.세트메뉴",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "아메리카노 + 플레인베이글 - 3,500원", "아메리카노 + 스페셜베이글 - 3,800원", "카페라떼 + 플레인베이글 - 4,100원", "카페라떼 + 스페셜베이글 - 4,400원", "논커피or에이드 + 플레인베이글 - 4,500원", "논커피or에이드 + 스페셜베이글 - 4,900원", "", "▪ 커피류 변경 시 +300원", "▪ 에이드류 스무디로 변경시 +300원" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥯 베이글"
+            }, {
+              "text": "☕ Coffee"
+            }, {
+              "text": "🍹 None-Coffee"
+            }, {
+              "text": "🍸 에이드"
+            }, {
+              "text": "🧋 스무디\u0026주스"
+            }, {
+              "text": "🫖 Tea"
+            }, {
+              "text": "🎂 세트메뉴"
+            }, {
+              "text": "\u003c 뒤로 \u003e"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "70d5facb-443f-4edf-9139-65c983054dea"
+  }, {
+    "intent": "back.메뉴",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "추천메뉴",
+    "name": "6679b115-2456-4638-a722-d01813e92eae"
+  }, {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "eec56dec-a635-4036-98a0-98971359c974"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "😵 아직 정확히 학습되지 않은 질문입니다", "다음 업데이트에 추가적으로 학습 될 예정입니다!", "", "메인으로 이동해서 궁금한 점을 질문해주시거나 자주 묻는 질문을 클릭 해주세요" ],
+            "type": "description"
+          }, {
+            "options": [ {
+              "event": {
+                "name": "back"
+              },
+              "text": "\u003c HOME \u003e",
+              "type": "button"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "f348e0de-0e87-4fa1-a20b-72e7f8b09f33"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "😵 아직 정확히 학습되지 않은 질문입니다", "다음 업데이트에 추가적으로 학습 될 예정입니다!", "", "메인으로 이동해서 궁금한 점을 질문해주시거나 자주 묻는 질문을 클릭 해주세요" ],
+            "type": "description"
+          }, {
+            "options": [ {
+              "event": {
+                "name": "back"
+              },
+              "text": "\u003c HOME \u003e",
+              "type": "button"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "d03c79b7-dafe-4d3f-b4cc-42739e00a942"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "1c234286-2ec3-4265-8cee-1d1fc690cf7e",
+    "multiIntentSettings": {
+    
+    },
+    "languageCode": "ko"
+  } ]
+}

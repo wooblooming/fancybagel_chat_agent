@@ -1,0 +1,178 @@
+{
+  "name": "1d099abd-148b-4a36-a261-5478bcb70eb8",
+  "displayName": "추천메뉴 Chips",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "💜 팬시베이글 메뉴보기"
+          }, {
+            "text": "🩷 팬시베이글 추천메뉴"
+          }, {
+            "text": "💛 알레르기 요인 Check"
+          }, {
+            "event": {
+              "name": "back"
+            },
+            "text": "\u003c HOME \u003e",
+            "type": "button"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "ko"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "추천메뉴.팬시베이글메뉴보기",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "펜시베이글 메뉴판"
+            } ],
+            "title": "👉팬시베이글 메뉴판👈",
+            "type": "list"
+          }, {
+            "text": [ "", "펜시베이글의 메뉴입니다!" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "menu1 Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/FANCY_BAGEL/%ED%8C%AC%EC%8B%9C%EB%A9%94%EB%89%B41.jpeg",
+            "type": "image"
+          }, {
+            "accessibilityText": "menu2 Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/FANCY_BAGEL/%ED%8C%AC%EC%8B%9C%EB%A9%94%EB%89%B42.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "🥯 베이글"
+            }, {
+              "text": "☕ Coffee"
+            }, {
+              "text": "🍹 None-Coffee"
+            }, {
+              "text": "🍸 에이드"
+            }, {
+              "text": "🧋 스무디\u0026주스"
+            }, {
+              "text": "🫖 Tea"
+            }, {
+              "text": "🎂 세트메뉴"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "추천메뉴 Chips",
+    "name": "c17c2ae1-4c8c-439b-8daf-0f8a4b771afb"
+  }, {
+    "intent": "추천메뉴.팬시베이글추천메뉴",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "추천메뉴"
+            } ],
+            "title": "👉이달의 추천메뉴👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "근본적인 맛 기본 '플레인베이글'", "소금빵 스타일의 '소금베이글'", "", "우선 저희 기본메뉴인", "'플레인베이글'부터 드셔보세요!", "강추합니다!", "기본 베이글을 소금빵 스타일로 변신시킨", "스페셜 베이글인 '소금 베이글'도 추천합니다.", "", "겉바속쫀인 베이글과 함께 어울리는 커피도 한잔~😁" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Product Image",
+            "rawUrl": "https://storage.googleapis.com/lean-ai-bucket/FANCY_BAGEL/%EB%B2%A0%EC%9D%B4%EA%B8%80%EC%82%AC%EC%A7%84.jpg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "추천메뉴 Chips",
+    "name": "c8ce7d82-d119-46ca-a7b1-527c734aecfc"
+  }, {
+    "intent": "추천메뉴.알레르기요인체크",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "items": [ {
+              "description": "내부 검토 자료 안내",
+              "title": "ㄴㄴ"
+            } ],
+            "title": "👉알레르기 유발정보👈",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "ko"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "text": [ "🥯🥛 베이글 전 제품(알류, 우유, 밀)", "", "🥛 라떼 \u0026 스무디류 전 제품(우유)", "", "🥛 밀크티(우유)", "", "🍑 자두\u0026복숭아에이드(복숭아)", "", "🍑 복숭아\u0026자두스무디(복숭아)" ],
+            "type": "description"
+          } ] ]
+        },
+        "languageCode": "ko"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "추천메뉴 Chips",
+    "name": "68d2ff46-ada1-48e7-9585-8a7e12ba4bbb"
+  }, {
+    "intent": "back.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "back.title",
+    "name": "35b78e12-6646-4b0f-9ea4-57f598955ecf"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "back.title",
+    "event": "back",
+    "triggerFulfillment": {
+    
+    },
+    "name": "da1927f7-d8aa-4a4a-8919-667280e35575"
+  } ]
+}

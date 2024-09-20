@@ -1,0 +1,10 @@
+{
+  "name": "468a8b9f-21c4-474c-a576-7360751bfb10",
+  "displayName": "Ask.소금베이글",
+  "parameters": [ {
+    "id": "Bagel",
+    "entityType": "@Bagel"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

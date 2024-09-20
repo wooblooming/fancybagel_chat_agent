@@ -1,0 +1,10 @@
+{
+  "name": "c302d453-5889-4c9a-872a-938e66a66746",
+  "displayName": "제주말차라떼.Ask",
+  "parameters": [ {
+    "id": "noncoffee",
+    "entityType": "@NonCoffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

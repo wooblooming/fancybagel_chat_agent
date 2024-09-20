@@ -1,0 +1,10 @@
+{
+  "name": "9ddd254a-91a5-4753-b1e6-faec8d8bf3eb",
+  "displayName": "얼그레이.Ask",
+  "parameters": [ {
+    "id": "tea",
+    "entityType": "@Tea"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

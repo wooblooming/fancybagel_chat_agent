@@ -1,0 +1,10 @@
+{
+  "name": "7700b0d5-4d36-43e0-98a0-bbc51452d3e3",
+  "displayName": "바닐라라떼.Ask",
+  "parameters": [ {
+    "id": "coffee",
+    "entityType": "@Coffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

@@ -1,0 +1,10 @@
+{
+  "name": "e8eddc08-3e07-4d4e-a0e0-645e90fe5279",
+  "displayName": "자몽에이드.Ask",
+  "parameters": [ {
+    "id": "ade",
+    "entityType": "@Ade"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

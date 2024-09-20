@@ -1,0 +1,71 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "🫖 Tea",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "어떤 티가 있어?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "어떤 차가 있어?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "무슨 티가 있어?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "무슨 차가",
+      "auto": true
+    }, {
+      "text": " 있어?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "티 메뉴 ",
+      "auto": true
+    }, {
+      "text": "보여줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "Tea 메뉴",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "Tea",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "🫖Tea",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

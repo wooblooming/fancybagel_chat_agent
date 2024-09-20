@@ -1,0 +1,10 @@
+{
+  "name": "8c1c46f4-f536-4719-bc1f-80398a2d7d46",
+  "displayName": "아메리카노.Ask",
+  "parameters": [ {
+    "id": "coffee",
+    "entityType": "@Coffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

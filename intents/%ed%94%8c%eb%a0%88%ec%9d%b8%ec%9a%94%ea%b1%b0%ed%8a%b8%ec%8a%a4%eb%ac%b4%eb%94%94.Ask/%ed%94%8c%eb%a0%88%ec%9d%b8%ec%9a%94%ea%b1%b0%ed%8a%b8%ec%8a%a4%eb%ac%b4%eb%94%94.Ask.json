@@ -1,0 +1,10 @@
+{
+  "name": "001e88b0-f7db-445e-bde5-b6924a524b71",
+  "displayName": "플레인요거트스무디.Ask",
+  "parameters": [ {
+    "id": "smoothie",
+    "entityType": "@Smoothie"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

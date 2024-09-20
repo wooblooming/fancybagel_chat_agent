@@ -1,0 +1,10 @@
+{
+  "name": "605784da-caa6-41ee-bd22-74e3a7c28bcc",
+  "displayName": "복숭아\u0026자두스무디.Ask",
+  "parameters": [ {
+    "id": "smoothie",
+    "entityType": "@Smoothie"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

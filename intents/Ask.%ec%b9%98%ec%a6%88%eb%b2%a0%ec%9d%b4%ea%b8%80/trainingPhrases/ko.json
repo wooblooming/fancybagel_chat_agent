@@ -1,0 +1,114 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "치즈베이글",
+      "parameterId": "bagel",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "치즈 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "치즈베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "치즈 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "치즈베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": " 얼마야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "치즈 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "은 얼마야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "치즈 베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " 뭐야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "치즈베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "은 얼마야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "치즈베이글",
+      "parameterId": "bagel",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " 뭐야?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

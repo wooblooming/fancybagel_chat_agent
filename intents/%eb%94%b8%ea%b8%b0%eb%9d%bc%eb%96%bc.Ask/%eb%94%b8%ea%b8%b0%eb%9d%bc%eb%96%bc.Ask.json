@@ -1,0 +1,10 @@
+{
+  "name": "adb06ef2-9c63-4d58-bdd6-567f0f3dea9a",
+  "displayName": "딸기라떼.Ask",
+  "parameters": [ {
+    "id": "noncoffee",
+    "entityType": "@NonCoffee"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

@@ -1,0 +1,89 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "소금 베이글",
+      "parameterId": "Bagel",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "소금 베이글",
+      "parameterId": "Bagel",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "가격",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "소금 베이글",
+      "parameterId": "Bagel",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "소금베이글",
+      "parameterId": "Bagel",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "소금베이글",
+      "parameterId": "Bagel"
+    }, {
+      "text": "이 뭐야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "소금 베이글",
+      "parameterId": "Bagel"
+    }, {
+      "text": "이 뭐야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "소금베이글",
+      "parameterId": "Bagel"
+    }, {
+      "text": " 얼마인지 알려줘"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "소금 베이글",
+      "parameterId": "Bagel"
+    }, {
+      "text": " 얼마야?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "9756d721-031e-4a05-a861-b181c237f068",
+  "displayName": "Ask.블루베리베이글",
+  "parameters": [ {
+    "id": "bagel",
+    "entityType": "@Bagel"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}
